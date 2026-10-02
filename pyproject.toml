@@ -1,0 +1,31 @@
+[project]
+name = "network-traffic-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ryanjek", email = "ryanngjekhian@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+[tool.uv]
+package = false
+
+[project.scripts]
+network-traffic-classification = "network_traffic_classification:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "pygments>=2.21.0",
+]
