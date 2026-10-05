@@ -7,6 +7,7 @@ GCN:
   classifier_hidden_dim: 128
   dropout: 0.2
   epochs: 30
+  patience: 5
   batch_size: 256
   lr: 1.0e-3
   weight_decay: 1.0e-4
