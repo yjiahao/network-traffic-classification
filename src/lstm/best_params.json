@@ -1,0 +1,9 @@
+{
+  "hidden_dim": 64,
+  "layer_dim": 2,
+  "dropout": 0.4,
+  "lr": 0.0002563908942916025,
+  "weight_decay": 1.791262473675998e-06,
+  "optimizer": "adamw",
+  "batch_size": 256
+}
