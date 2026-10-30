@@ -6,8 +6,8 @@ GCN:
   edge_feat_dim: 10
   classifier_hidden_dim: 128
   dropout: 0.2
-  epochs: 30
+  epochs: 50
   patience: 5
   batch_size: 256
-  lr: 1.0e-3
+  lr: 1.0e-4
   weight_decay: 1.0e-4
